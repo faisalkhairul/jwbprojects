@@ -1,0 +1,16 @@
+body{
+ text-align: center;
+}
+.heading{
+    text-align: center;
+}
+.username{
+    margin: 30px;
+    padding: 10px;
+    background-color: blue;
+}
+.password{
+    margin: 30px;
+    padding: 10px;
+    background-color: green;
+}

@@ -1,0 +1,16 @@
+.content{
+
+display: flex;
+
+flex-direction: column;
+
+text-align: center;
+
+}
+
+.detail {
+margin: 20px;
+padding: 30px;
+background-color: green;
+}
+

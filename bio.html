@@ -1,0 +1,61 @@
+<!Doctype HTML>
+<html>
+<head>
+    <title>Bio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="theme-box">
+        <label for="theme-selection">Theme:</label>
+        <select id="theme-selection" onchange="changeTheme(this.value)">
+            <option value="system">System</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+        </select>
+    </div>
+
+    <div class="card">
+        <div class="profilepicture">
+            <img src="elgato.jpg" width="150" height="150">
+        </div> 
+        <h1>This is my Bio</h1>
+        <h1>Name: Faisal Khairul</h1>
+        <h3>Summary:</h3>
+        <P>Im a gamer whom like to play game everyday and play game like strategic game such as dota, cs, clash of clans</P>
+        <p>Birthdate: 28 Feb 2002</p>
+        <p>Birthplace: Bandung</p>
+        <p>Hobbies : Fishing, Camping, Gaming</p>
+    
+        <div class="list">
+            <ul>
+                <li>Fishing</li>
+                <li>Camping</li>
+                <li>Gaming</li>
+            </ul>
+            <ol>
+                <li>Fishing</li>
+                <li>Camping</li>
+                <li>Gaming</li>
+            </ol>
+        </div>
+    
+        <div class="button">
+            <a href="index.html">click me!</a>
+        </div>
+    </div>
+<script>
+    function changeTheme(choice) {
+        let body = document.body;
+
+        if (choice === "dark") {
+            body.className = "dark";        
+        } else if (choice === "light") {
+            body.className = "light";       
+        } else {
+            body.className = "";            
+        }
+    }
+</script>
+
+</body>
+</html>
